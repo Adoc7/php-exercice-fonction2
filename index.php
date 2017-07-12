@@ -12,6 +12,9 @@
 
 <section>
 <h1>Exo 2</h1>
+    <br>
+
+    <div>
     <h2>PHP</h2>
     <?php
     for ($i = 0 ; $i < 8 ; $i++){
@@ -20,7 +23,9 @@
         echo $tableau;
     }
     ?>
-
+    </div>
+    <br>
+    <div>
     <h2>JAVASCRIPT</h2>
 
     <script type="text/javascript">
@@ -29,10 +34,14 @@
                 document.write(tableau[i].charAt(0).toUpperCase() + tableau[i].substring(1).toLowerCase()+ "<br/>");
             }
     </script>
+</div>
+
 
 </section>
+<br>
 
 <h1>Exo 1</h1>
+<br>
 <p id="alert" onclick="clic()">Cliquez sur moi !</p>
 <script type="text/javascript">
     function clic() {

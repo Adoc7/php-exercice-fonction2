@@ -1,20 +1,65 @@
-#alert{
-    margin:auto;
+body{
+    background-image: url("http://il6.picdn.net/shutterstock/videos/6438137/thumb/1.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+}
 
-    width:10em;
-    padding:1em;
-    border: solid steelblue 0.1em;
-    border-radius:2em;
+#alert:hover{
+    color:white;
+    background-color: steelblue;
 
-    text-align: center;
-    font-size:4em;
-    font-weight: 800;
 
-    color:steelblue;
-   background-color: yellow;
 }
 
 
+#alert{
+    margin:auto;
+
+    border: solid steelblue 0.1em;
+    width:10em;
+    padding:1em;
+    border-radius:2em;
+    font-size:2em;
+    text-align: center;
+
+    color:steelblue;
+    background-color: white;
+}
+
+
+
+div,h1{
+    margin:auto;
+
+    border: solid steelblue 0.1em;
+    padding:0.5em;
+    border-radius:1em;
+    font-weight: 400;
+    text-align: center;
+
+    color:black;
+}
+
+
+div{
+    font-size:1em;
+    font-weight:200;
+
+    width:20em;
+
+    background-color: rgba(255,255,255,0.4);
+}
+
+h1{
+    font-size:2em;
+    width:10em;
+    font-weight: 800;
+    color:white;
+
+    background-color: rgba(200,100,25,0.6);
+
+}
 
 
 
